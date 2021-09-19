@@ -1,0 +1,22 @@
+.footer {
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: $secondary-color;
+  margin-top: auto;
+
+  p {
+    font-size: 14px;
+    font-weight: 400;
+    font-family: $open-sans;
+    color: #fff;
+    letter-spacing: 1.3px;
+  }
+}
+
+.App {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
